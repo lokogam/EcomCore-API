@@ -40,15 +40,13 @@
                         }
                     }
                 }
-            }
-        },
-        "/api//orders": {
+            },
             "post": {
                 "tags": [
                     "Orders"
                 ],
                 "summary": "Create a new order",
-                "operationId": "98b480dd102b4f969be3e69d83405c32",
+                "operationId": "2123ba58dadb22bd6f2c8081af562230",
                 "requestBody": {
                     "content": {
                         "application/json": {
@@ -72,13 +70,13 @@
                 }
             }
         },
-        "/api//orders/{id}": {
+        "/api/orders/{id}": {
             "get": {
                 "tags": [
                     "Orders"
                 ],
                 "summary": "Get an order by ID",
-                "operationId": "7525865f9622f48a47175fc8db22eed5",
+                "operationId": "88d27387b1e409e075c18609d4a0c300",
                 "parameters": [
                     {
                         "name": "id",
@@ -107,7 +105,7 @@
                     "Orders"
                 ],
                 "summary": "Update an existing order",
-                "operationId": "45ab27417d93712d9eca8bfdd91d8b35",
+                "operationId": "38a1b85e8294795a1b0dc438a36e319f",
                 "parameters": [
                     {
                         "name": "id",
@@ -145,7 +143,7 @@
                     "Orders"
                 ],
                 "summary": "Delete an order",
-                "operationId": "78b108c856b95601fd2742526a3d5475",
+                "operationId": "bab875a1ed962fb33565ab9b48c0d494",
                 "parameters": [
                     {
                         "name": "id",
