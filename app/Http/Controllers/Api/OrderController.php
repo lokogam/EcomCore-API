@@ -33,7 +33,7 @@ class OrderController extends Controller
 
     /**
      * @OA\Post(
-     *     path="/api//orders",
+     *     path="/api/orders",
      *     summary="Create a new order",
      *     tags={"Orders"},
      *     @OA\RequestBody(
@@ -69,7 +69,7 @@ class OrderController extends Controller
 
     /**
      * @OA\Get(
-     *     path="/api//orders/{id}",
+     *     path="/api/orders/{id}",
      *     summary="Get an order by ID",
      *     tags={"Orders"},
      *     @OA\Parameter(
@@ -93,7 +93,7 @@ class OrderController extends Controller
 
     /**
      * @OA\Put(
-     *     path="/api//orders/{id}",
+     *     path="/api/orders/{id}",
      *     summary="Update an existing order",
      *     tags={"Orders"},
      *     @OA\Parameter(
@@ -128,7 +128,7 @@ class OrderController extends Controller
 
     /**
      * @OA\Delete(
-     *     path="/api//orders/{id}",
+     *     path="/api/orders/{id}",
      *     summary="Delete an order",
      *     tags={"Orders"},
      *     @OA\Parameter(
